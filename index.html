@@ -18,6 +18,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/mystyle.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body id="page-top">
@@ -25,13 +26,12 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">A113070097 尤擇愷</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="assets/img/DSC02144.JPG" alt="..." /></span>
+            <span data-aos="zoom-in-right" class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/DSC02144.JPG" alt="..." /></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
                 class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div data-aos="fade-up" class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">自我介紹</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">工作經驗</a></li>
@@ -47,7 +47,7 @@
     <div class="container-fluid p-0">
         <!-- About-->
         <section class="resume-section" id="about">
-            <div class="resume-section-content">
+            <div data-aos="zoom-in-down" class="resume-section-content">
                 <h1 class="mb-0">
                     尤
                     <span class="text-primary">擇愷</span>
@@ -72,7 +72,7 @@
         <hr class="m-0" />
         <!-- Experience-->
         <section class="resume-section" id="experience">
-            <div class="resume-section-content">
+            <div data-aos="fade-up" class="resume-section-content">
                 <h2 class="mb-5">工作經驗</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
@@ -109,7 +109,7 @@
         <hr class="m-0" />
         <!-- Education-->
         <section class="resume-section" id="education">
-            <div class="resume-section-content">
+            <div data-aos="fade-up" class="resume-section-content">
                 <h2 class="mb-5">求學生涯</h2><img src="assets/img/book-and-person-winter-svgrepo-com.svg" alt=""
                     height="50px">
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -183,7 +183,7 @@
         <hr class="m-0" />
         <!-- Skills-->
         <section class="resume-section" id="skills">
-            <div class="resume-section-content">
+            <div data-aos="fade-up" class="resume-section-content">
                 <h2 class="mb-5">技能</h2><img src="assets/img/wrench-svgrepo-com.svg" alt="" height="50px">
                 <div class="subheading mb-3">程式語言與工具</div>
                 <ul class="list-inline dev-icons">
@@ -216,7 +216,7 @@
         <hr class="m-0" />
         <!-- Interests-->
         <section class="resume-section" id="interests">
-            <div class="resume-section-content">
+            <div data-aos="fade-up" class="resume-section-content">
                 <h2 class="mb-5">興趣</h2><img src="assets/img/guitar-svgrepo-com.svg" alt="" height="50px">
                 <p>目前最大的興趣就是吉他，因為我接觸吉他已經有10年左右了。在平日的時間裡，我都會拿起我的吉他彈奏我所喜愛的歌曲即使我不會唱歌我都會找到這首歌的主音再搭配伴奏並彈奏完整的歌曲，這使我成就感滿滿。</p>
                 <p class="mb-0">其餘的興趣就是運動譬如躲避球、籃球、羽球等等，但目前在尋求一個通過電腦軟件製作成品的興趣。培養此類的興趣就能在職場上有一定空間能夠使用也能因為是興趣所以操作方面應該會更加嫻熟。
@@ -227,7 +227,7 @@
         <!-- Awards-->
 
         <section class="resume-section" id="awards">
-            <div class="resume-section-content">
+            <div data-aos="fade-up" class="resume-section-content">
                 <h2 class="mb-5">成就</h2>
                 <ul class="fa-ul mb-0">
                     <li>
@@ -269,7 +269,7 @@
             <h2 class="mb-5">表演照片</h2><img src="assets/img/picture-svgrepo-com.svg" alt="" height="80px"
                 class="list-inline-item">
             <link />
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleAutoplaying" data-aos="flip-up" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -325,6 +325,51 @@
     <script>
         AOS.init();
     </script>
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+          .path-0{
+            animation:pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-0{
+            0%{
+              d: path("M 0,400 L 0,100 C 78.07142857142858,127.03571428571428 156.14285714285717,154.07142857142856 295,141 C 433.85714285714283,127.92857142857143 633.4999999999999,74.75 768,74 C 902.5000000000001,73.25 971.8571428571429,124.92857142857142 1073,138 C 1174.142857142857,151.07142857142858 1307.0714285714284,125.53571428571429 1440,100 L 1440,400 L 0,400 Z");
+            }
+            25%{
+              d: path("M 0,400 L 0,100 C 98.71428571428572,76.14285714285714 197.42857142857144,52.285714285714285 329,53 C 460.57142857142856,53.714285714285715 625.0000000000001,79.00000000000001 761,94 C 896.9999999999999,108.99999999999999 1004.5714285714287,113.71428571428572 1113,113 C 1221.4285714285713,112.28571428571428 1330.7142857142858,106.14285714285714 1440,100 L 1440,400 L 0,400 Z");
+            }
+            50%{
+              d: path("M 0,400 L 0,100 C 84.78571428571428,90.32142857142857 169.57142857142856,80.64285714285714 295,88 C 420.42857142857144,95.35714285714286 586.5,119.75 709,132 C 831.5,144.25 910.4285714285716,144.35714285714286 1025,137 C 1139.5714285714284,129.64285714285714 1289.7857142857142,114.82142857142857 1440,100 L 1440,400 L 0,400 Z");
+            }
+            75%{
+              d: path("M 0,400 L 0,100 C 127.25,120.82142857142857 254.5,141.64285714285714 366,132 C 477.5,122.35714285714286 573.2500000000001,82.24999999999999 696,80 C 818.7499999999999,77.75000000000001 968.5,113.35714285714286 1097,123 C 1225.5,132.64285714285714 1332.75,116.32142857142857 1440,100 L 1440,400 L 0,400 Z");
+            }
+            100%{
+              d: path("M 0,400 L 0,100 C 78.07142857142858,127.03571428571428 156.14285714285717,154.07142857142856 295,141 C 433.85714285714283,127.92857142857143 633.4999999999999,74.75 768,74 C 902.5000000000001,73.25 971.8571428571429,124.92857142857142 1073,138 C 1174.142857142857,151.07142857142858 1307.0714285714284,125.53571428571429 1440,100 L 1440,400 L 0,400 Z");
+            }
+          }</style><defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#F78DA7"></stop><stop offset="95%" stop-color="#8ED1FC"></stop></linearGradient></defs><path d="M 0,400 L 0,100 C 78.07142857142858,127.03571428571428 156.14285714285717,154.07142857142856 295,141 C 433.85714285714283,127.92857142857143 633.4999999999999,74.75 768,74 C 902.5000000000001,73.25 971.8571428571429,124.92857142857142 1073,138 C 1174.142857142857,151.07142857142858 1307.0714285714284,125.53571428571429 1440,100 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><style>
+          .path-1{
+            animation:pathAnim-1 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-1{
+            0%{
+              d: path("M 0,400 L 0,233 C 108.78571428571428,248.53571428571428 217.57142857142856,264.07142857142856 341,265 C 464.42857142857144,265.92857142857144 602.5,252.24999999999997 725,253 C 847.5,253.75000000000003 954.4285714285716,268.92857142857144 1071,268 C 1187.5714285714284,267.07142857142856 1313.7857142857142,250.03571428571428 1440,233 L 1440,400 L 0,400 Z");
+            }
+            25%{
+              d: path("M 0,400 L 0,233 C 132.85714285714286,224.96428571428572 265.7142857142857,216.92857142857142 367,210 C 468.2857142857143,203.07142857142858 538.0000000000001,197.25 662,195 C 785.9999999999999,192.75 964.2857142857142,194.07142857142858 1103,201 C 1241.7142857142858,207.92857142857142 1340.857142857143,220.46428571428572 1440,233 L 1440,400 L 0,400 Z");
+            }
+            50%{
+              d: path("M 0,400 L 0,233 C 126.35714285714286,239 252.71428571428572,245 358,233 C 463.2857142857143,221 547.5,191 661,192 C 774.5,193 917.2857142857142,225 1052,237 C 1186.7142857142858,249 1313.357142857143,241 1440,233 L 1440,400 L 0,400 Z");
+            }
+            75%{
+              d: path("M 0,400 L 0,233 C 134.89285714285717,239.71428571428572 269.78571428571433,246.42857142857142 402,251 C 534.2142857142857,255.57142857142858 663.7499999999999,258 772,260 C 880.2500000000001,262 967.2142857142858,263.57142857142856 1075,259 C 1182.7857142857142,254.42857142857142 1311.392857142857,243.71428571428572 1440,233 L 1440,400 L 0,400 Z");
+            }
+            100%{
+              d: path("M 0,400 L 0,233 C 108.78571428571428,248.53571428571428 217.57142857142856,264.07142857142856 341,265 C 464.42857142857144,265.92857142857144 602.5,252.24999999999997 725,253 C 847.5,253.75000000000003 954.4285714285716,268.92857142857144 1071,268 C 1187.5714285714284,267.07142857142856 1313.7857142857142,250.03571428571428 1440,233 L 1440,400 L 0,400 Z");
+            }
+          }</style><defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#F78DA7"></stop><stop offset="95%" stop-color="#8ED1FC"></stop></linearGradient></defs><path d="M 0,400 L 0,233 C 108.78571428571428,248.53571428571428 217.57142857142856,264.07142857142856 341,265 C 464.42857142857144,265.92857142857144 602.5,252.24999999999997 725,253 C 847.5,253.75000000000003 954.4285714285716,268.92857142857144 1071,268 C 1187.5714285714284,267.07142857142856 1313.7857142857142,250.03571428571428 1440,233 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
 </body>
 
 </html>
